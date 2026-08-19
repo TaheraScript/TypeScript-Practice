@@ -1,0 +1,1 @@
+let myDistruction : number | null = null

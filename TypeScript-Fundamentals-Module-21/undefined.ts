@@ -1,0 +1,1 @@
+let myDistruction : number[] | undefined = [56,78,90]
