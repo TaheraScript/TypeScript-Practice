@@ -28,7 +28,7 @@ const { name, age, email, skills, active } = programmer;
 console.log(`Name: ${name}
 Age: ${age}
 Email: ${email}
-Skills: ${skills}
+Skills: ${skills.join(', ')}
 Active: ${active}
 `);
 //# sourceMappingURL=pblm-12.js.map

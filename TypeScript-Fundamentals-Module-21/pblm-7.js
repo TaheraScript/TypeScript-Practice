@@ -7,10 +7,6 @@ Output:
 10
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-//traditional way
-// let sumAll = (num1 : number,num2 : number ,num3 : number,num4 : number) : number => num1 + num2 +num3 + num4
-// }
-// console.log(sumAll(1, 2, 3, 4))
 //for of loop
 // let sumAll = (...numbers :number[]) => {
 //     let total =0;

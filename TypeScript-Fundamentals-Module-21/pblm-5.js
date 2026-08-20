@@ -10,5 +10,5 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const user = {
     name: 'Amina'
 };
-console.log(`Name: ${user.name}, Email:${user.email ? user.email : 'Not provided'}`);
+console.log(`Name: ${user.name}, Email: ${user.email ? user.email : 'Not provided'}`);
 //# sourceMappingURL=pblm-5.js.map

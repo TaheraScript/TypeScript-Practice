@@ -8,5 +8,5 @@ Output:
 Amina is 22 years old.
  */
 const studentInfo = ["Amina", 22];
-console.log(`${studentInfo[0]} is ${studentInfo[1]} years old`);
+console.log(`${studentInfo[0]} is ${studentInfo[1]} years old.`);
 //# sourceMappingURL=pblm-4.js.map
