@@ -29,10 +29,10 @@ interface DeleteAction{
 }
 function updateStorageUsage(currentUsageMB: number, action: UploadAction | DeleteAction): number {
     const{ type,sizeMB} = action
-if(action.type === 'upload'){
+if(type === 'upload'){
     return currentUsageMB + sizeMB
 }
-const result = action.type === 'delete' && currentUsageMB < sizeMB ? 0 : currentUsageMB - sizeMB
+const result = currentUsageMB < sizeMB ? 0 : currentUsageMB - sizeMB
  return result
 }
 console.log(updateStorageUsage(2000, { type: "upload", sizeMB: 500 }))

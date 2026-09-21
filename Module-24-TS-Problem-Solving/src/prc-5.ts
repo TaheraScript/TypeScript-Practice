@@ -33,5 +33,6 @@ const player2 ={
     name: "Zex",
     scores: [60, 55, 70, 50]
 }
-console.log(getPlayerStats(player1))
-console.log(getPlayerStats(player2))
+console.log(getPlayerStats(player1))// { name: "Nova", average: 87.5, rank: "MVP" }
+console.log(getPlayerStats(player2))// { name: "Zex", average: 58.75, rank: "Rookie" }
+
